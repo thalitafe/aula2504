@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade prática</title>
+</head>
+<body>
+    <div>
+        <h2>Cadastro</h2>
+        <form action="dados2.php" method="post">
+            <label for="nome">Cliente:</label>
+            <input type="text" name="nome" placeholder="Digite seu nome" id="nome" required>
+            <label for="phone">Contato:</label>
+            <input type="tel" name="phone" pattern="(\[0-9]{2}\) [9]{1} [0-9]{4}-[0-9]{4}" placeholder="(92)9 1364-4578" id="phone">
+            <label for="email">E-mail</label>
+            <input type="text" name="email" id="email">
+            <button type="submit">Enviar</button>
+
+        </form>
+    </div>
+    
+</body>
+</html>
